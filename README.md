@@ -12,6 +12,7 @@ The Dirac delta function satisfies the following key properties:
 ### 1. Zero Everywhere Except at Zero
 δ(x) = 0 for all x ≠ 0
 
+Integral from -inf to +inf of δ(x) dx = 1
 ### 2. Integral Equals One
 \[
 \int_{-\infty}^{\infty} \delta(x)\,dx = 1
