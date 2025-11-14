@@ -12,19 +12,13 @@ The Dirac delta function satisfies the following key properties:
 ### 1. Zero Everywhere Except at Zero
 δ(x) = 0 for all x ≠ 0
 
-
-![Equation](https://latex.codecogs.com/svg.image?\int_{-\infty}^{\infty}\delta(x)\,dx=1)
-Integral from -inf to +inf of δ(x) dx = 1
 ### 2. Integral Equals One
-\[
-\int_{-\infty}^{\infty} \delta(x)\,dx = 1
-\]
+![Integral](https://latex.codecogs.com/svg.image?\int_{-\infty}^{\infty}\delta(x)\,dx=1)
 
 ### 3. Sifting (Sampling) Property
-For any smooth function \(f(x)\):
-\[
-\int_{-\infty}^{\infty} f(x)\,\delta(x - a)\,dx = f(a)
-\]
+For any smooth function f(x):
+
+![Sifting](https://latex.codecogs.com/svg.image?\int_{-\infty}^{\infty}f(x)\,\delta(x-a)\,dx=f(a))
 
 ## Interpretation
 The delta function represents an infinitely narrow, infinitely tall spike at x = 0, with a total area of 1. It is not a real function but behaves like one under integration. It is used to represent:
@@ -37,14 +31,10 @@ The delta function represents an infinitely narrow, infinitely tall spike at x =
 ## Common Representations
 
 ### Limit of a Narrow Gaussian
-\[
-\delta(x) = \lim_{\sigma \to 0} \frac{1}{\sigma\sqrt{2\pi}} e^{-x^2/(2\sigma^2)}
-\]
+![Gaussian](https://latex.codecogs.com/svg.image?\delta(x)=\lim_{\sigma\to0}\frac{1}{\sigma\sqrt{2\pi}}e^{-x^{2}/(2\sigma^{2})})
 
 ### Limit of a Sinc Function
-\[
-\delta(x) = \lim_{L \to \infty} \frac{1}{\pi} \frac{\sin(Lx)}{x}
-\]
+![Sinc](https://latex.codecogs.com/svg.image?\delta(x)=\lim_{L\to\infty}\frac{1}{\pi}\frac{\sin(Lx)}{x})
 
 ## Applications
 - **Signal processing:** ideal impulse signals  
