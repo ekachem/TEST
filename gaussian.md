@@ -18,7 +18,7 @@ A random variable \(X\) is **normally distributed** with mean \(\mu\) and varian
 
 The mean (expected value) is:
 
-![mean](https://latex.codecogs.com/svg.image?\mu=\mathbb{E}[X]=\int_{-\infty}^{\infty}x\,f(x)\{dx})
+![mean](https://latex.codecogs.com/svg.image?\mu=\mathbb{E}[X]=\int_{-\infty}^{\infty}x\f(x)\{dx})
 
 ---
 
