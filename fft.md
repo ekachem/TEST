@@ -66,3 +66,31 @@ Examples:
 From MD engine (e.g., GROMACS: `gmx analyze -ac`) or compute manually.
 
 ### Step 3 — Apply FFT to the ACF
+
+### Step 4 — Convert Frequencies to Wavenumbers
+Using the formula above.
+
+### Step 5 — Plot the Spectrum
+- x-axis: wavenumber (cm⁻¹)  
+- y-axis: intensity  
+
+---
+
+## 4. Minimal Python Example
+
+```python
+import numpy as np
+
+# Load time series A(t)
+A = np.loadtxt("timeseries.txt")
+
+# Compute autocorrelation
+A = A - np.mean(A)
+acf = np.correlate(A, A, mode="full")
+acf = acf[len(acf)//2:]
+
+# Compute FFT
+spectrum = np.abs(np.fft.rfft(acf))
+
+# Frequency axis (example: 1 fs timestep)
+freq = np.fft.rfftfreq(len(acf), d=1e-15)
