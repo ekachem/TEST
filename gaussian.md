@@ -2,7 +2,7 @@
 
 ## 1. Gaussian (Normal) Distribution
 
-A random variable \(X\) is **normally distributed** with mean \(\mu\) and variance \(\&sigma;^2\) if its probability density function is:
+A random variable \(X\) is **normally distributed** with mean \(\{mu}\) and variance \(\sigma^2\) if its probability density function is:
 
 ![gauss](https://latex.codecogs.com/svg.image?f(x)=\frac{1}{\sqrt{2\pi\sigma^{2}}}\exp\left(-\frac{(x-\mu)^{2}}{2\sigma^{2}}\right))
 
