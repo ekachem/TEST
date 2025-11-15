@@ -132,7 +132,7 @@ tends toward a normal distribution, and the approximation becomes increasingly a
 ## Example — Rolling Dice
 
 Consider rolling n dice.  
-Let X1, X2, ..., Xn represent the face-up values of each die.
+Let ![Eq1](https://latex.codecogs.com/svg.image?X_{1},X_{2},...,X_{n}) represent the face-up values of each die.
 
 Slide 6 shows the probability distribution of the sum
 
@@ -285,7 +285,7 @@ The variance of the sum is:
 
 ![Eq9](https://latex.codecogs.com/svg.image?\sigma_{x+y}^{2}=\langle(X+Y-\langle%20X+Y\rangle)^{2}\rangle)
 
-Expanding:
+Expanding the expression gives:
 
 ![Eq10](https://latex.codecogs.com/svg.image?\sigma_{x+y}^{2}=\langle(X-\langle%20X\rangle)^{2}\rangle+\langle(Y-\langle%20Y\rangle)^{2}\rangle+2(\langle%20XY\rangle-\langle%20X\rangle\langle%20Y\rangle))
 
@@ -293,7 +293,7 @@ Thus:
 
 ![Eq11](https://latex.codecogs.com/svg.image?\sigma_{x+y}^{2}=\sigma_{x}^{2}+\sigma_{y}^{2}+2(\langle%20XY\rangle-\langle%20X\rangle\langle%20Y\rangle))
 
-For independent variables, ![Eq1](https://latex.codecogs.com/svg.image?\langle{XY}\rangle=\langle{X}\rangle\langle{Y}\rangle), so:
+For independent variables, ![Eq1](https://latex.codecogs.com/svg.image?\langle{XY}\rangle=\langle{X}\rangle\langle{Y}\rangle), so cross-term vanishes and :
 
 ![Eq12](https://latex.codecogs.com/svg.image?\sigma_{x+y}^{2}=\sigma_{x}^{2}+\sigma_{y}^{2})
 
@@ -336,7 +336,7 @@ This is consistent with the definitions of variance:
 ## Correlation Coefficient
 
 It is often useful to normalize the covariance by the product of the standard deviations of \(X\) and \(Y\).  
-This normalized quantity is the **correlation coefficient** \(\rho_{xy}\):
+This normalized quantity is the **correlation coefficient** ![Eq1](https://latex.codecogs.com/svg.image?\rho_{xy}):
 
 ![Eq8](https://latex.codecogs.com/svg.image?\rho_{xy}=\frac{\langle(X-\langle%20X\rangle)(Y-\langle%20Y\rangle)\rangle}{\sigma_{x}\sigma_{y}})
 
@@ -363,5 +363,5 @@ For example:
 Are **wealth and health** more strongly correlated than  
 **temperature and humidity** in a city?
 
-Such comparisons are meaningful because \(\rho_{xy}\) is **dimensionless and normalized**.
+Such comparisons are meaningful because ![Eq1](https://latex.codecogs.com/svg.image?\rho_{xy}) is **dimensionless and normalized**.
 
