@@ -14,3 +14,51 @@ A higher value of ρ(ϕ) indicates a greater likelihood of the arrow pointing ne
 The total probability over all possible directions must be 1:
 
 ![Integral](https://latex.codecogs.com/svg.image?\int_{-\infty}^{\infty}\delta(x)\{dx}=1)
+
+Here, ρ(ϕ)dϕ represents the probability that the arrow points within the infinitesimal range dϕ around φ.
+
+For a uniform distribution (equal likelihood in all directions),
+
+![Integral](https://latex.codecogs.com/svg.image?\int_{-\infty}^{\infty}\delta(x)\{dx}=1)
+
+which is independent of φ, and indeed satisfies
+
+![Integral](https://latex.codecogs.com/svg.image?\int_{-\infty}^{\infty}\delta(x)\{dx}=1)
+
+## Another Example of Continuous Distribution
+
+Consider a one-dimensional box of length L into which we randomly drop a small sphere. The probability of the sphere landing at a position x follows a continuous distribution ρ(x)dx, which must also be normalized to 1:
+
+The probability of finding the sphere within a certain range 
+𝑎
+≤
+𝑥
+≤
+𝑏
+a≤x≤b is given by
+
+𝑃
+(
+𝑎
+≤
+𝑥
+≤
+𝑏
+)
+=
+∫
+𝑎
+𝑏
+𝜌
+(
+𝑥
+)
+ 
+𝑑
+𝑥
+P(a≤x≤b)=∫
+a
+b
+	​
+
+ρ(x)dx
