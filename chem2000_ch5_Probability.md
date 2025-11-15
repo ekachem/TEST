@@ -12,3 +12,4 @@ We introduce a function ρ(ϕ) to represent the probability density, or propensi
 A higher value of ρ(ϕ) indicates a greater likelihood of the arrow pointing near that angle.
 
 The total probability over all possible directions must be 1:
+![Integral](https://latex.codecogs.com/svg.image?\int_{-\infty}^{\infty}\delta(x)\{dx}=1)
