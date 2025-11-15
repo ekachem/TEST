@@ -127,7 +127,7 @@ and
 The Gaussian distribution is also called the **Normal Distribution**.  
 It is of fundamental importance because of a major result in statistics — the **Central Limit Theorem**.
 
-The theorem states that if x1, x2, ..., xn are independent random variables with the same underlying distribution, then their average
+The theorem states that if ![Eq1](https://latex.codecogs.com/svg.image?x_{1},x_{2},...,x_{n}) are independent random variables with the same underlying distribution, then their average
 
 ![Eq8](https://latex.codecogs.com/svg.image?\bar{x}=\frac{x_{1}+x_{2}+\cdots+x_{n}}{n})
 
