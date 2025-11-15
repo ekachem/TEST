@@ -4,12 +4,6 @@ So far, the events we have encountered have discrete outcomes, such as obtaining
 However, some events correspond to continuous outcomes.
 
 For example, imagine spinning an arrow (see figure on the left). The resulting angle, ϕ, at which the arrow stops is not a discrete value; it can take any value in the continuous range 
-[
-0
-,
-2
-𝜋
-]
 [0,2π].
 
 If there is no external influence that makes the arrow prefer one direction over another, then the probability of the arrow pointing at any given angle must be equal.
