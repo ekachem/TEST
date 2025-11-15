@@ -127,7 +127,7 @@ $$
 \end{cases}
 $$
 
-![DeltaIntegral](https://latex.codecogs.com/svg.image?\delta(x-a)=\begin{cases}\infty,&x=a\\{0},&x\ne{a}\end{cases}$$)
+![DeltaIntegral](https://latex.codecogs.com/svg.image?\delta(x-a)=\begin{cases}\infty,&x=a\\{0},&x\ne{a}\end{cases})
 
 ---
 
