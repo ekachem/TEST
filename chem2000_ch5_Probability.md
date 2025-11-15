@@ -107,18 +107,6 @@ As σ → 0, the Gaussian becomes sharper and narrower, eventually approaching t
 ![Eq5](https://latex.codecogs.com/svg.image?\delta(x-a)=\lim_{\sigma\to0}\frac{1}{\sqrt{2\pi\sigma^{2}}}e^{-(x-a)^{2}/(2\sigma^{2})})
 
 The delta function satisfies:
-
-![Eq6](https://latex.codecogs.com/svg.image?\delta(x-a)=\begin{cases}\infty,&x=a\\0,&x\neq%20a\end{cases})
-
-and
-
-![Eq7](https://latex.codecogs.com/svg.image?\int_{-\infty}^{\infty}\delta(x-a)\,dx=1)
-
-
-and
-
-![DeltaIntegral](https://latex.codecogs.com/svg.image?\int_{-\infty}^{\infty}\delta(x-a)\,dx=1)
-
 $$
 \delta(x-a)=
 \begin{cases}
@@ -127,7 +115,9 @@ $$
 \end{cases}
 $$
 
-![DeltaIntegral](https://latex.codecogs.com/svg.image?\delta(x-a)=\begin{cases}\infty,&x=a\\{0},&x\ne{a}\end{cases})
+and
+
+![Eq7](https://latex.codecogs.com/svg.image?\int_{-\infty}^{\infty}\delta(x-a)\,dx=1)
 
 ---
 
