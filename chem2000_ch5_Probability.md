@@ -293,7 +293,7 @@ Thus:
 
 ![Eq11](https://latex.codecogs.com/svg.image?\sigma_{x+y}^{2}=\sigma_{x}^{2}+\sigma_{y}^{2}+2(\langle%20XY\rangle-\langle%20X\rangle\langle%20Y\rangle))
 
-For independent variables, ![Eq1](https://latex.codecogs.com/svg.image?\( \langle XY\rangle = \langle X\rangle\langle Y\rangle \), so:
+For independent variables, ![Eq1](https://latex.codecogs.com/svg.image?\langle{XY}\rangle=\langle{X}\rangle\langle{Y}\rangle), so:
 
 ![Eq12](https://latex.codecogs.com/svg.image?\sigma_{x+y}^{2}=\sigma_{x}^{2}+\sigma_{y}^{2})
 
