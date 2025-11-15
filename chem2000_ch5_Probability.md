@@ -138,7 +138,7 @@ With one die, all six outcomes are equally probable.
 With two dice, the central value \(S=7\) becomes the most probable, since more combinations of dice values yield 7 than any other sum.
 
 
-# Convergence Toward the Gaussian Distribution
+## Convergence Toward the Gaussian Distribution
 
 For two dice, many different combinations yield the same total.  
 For example, a sum of 7 can result from:
@@ -159,7 +159,7 @@ In the series of plots (see the figure in the lecture slides), all five distribu
 
 ---
 
-# Example — Distribution of H₂ Bond Lengths
+## Example — Distribution of H₂ Bond Lengths
 
 Consider one mole of hydrogen molecules (H₂).  
 If we could instantaneously measure the bond length of each molecule, we would find that the values are not identical — some bonds are slightly longer, some shorter, with an average value around **0.74 Å**.
@@ -185,19 +185,19 @@ Because \(N_A\) is extremely large, the **Central Limit Theorem** guarantees tha
 
 ---
 
-# Implication for Experiments
+## Implication for Experiments
 
 Nearly all experimental measurements can be viewed as observing the **average of a very large number of microscopic events or particles**.  
 Consequently, the results of most physical and chemical experiments **follow the normal (Gaussian) distribution**.
 
-# Importance of the Normal Distribution
+## Importance of the Normal Distribution
 
 This is why the normal (Gaussian) distribution finds such extensive use in analytical chemistry.  
 Many experimental measurements—such as absorbance, concentration, or instrumental noise—naturally follow normal distributions because they are averages of numerous microscopic events.
 
 ---
 
-# Joint Probability Distributions
+## Joint Probability Distributions
 
 An event can depend on more than one random variable.
 
@@ -222,7 +222,7 @@ The normalization condition must hold:
 
 ---
 
-# Marginal Probability Densities
+## Marginal Probability Densities
 
 If we integrate over one variable, we obtain the marginal distribution of the other:
 
@@ -232,7 +232,7 @@ This gives the probability distribution of \(x\) after averaging over all values
 
 ---
 
-# Expectation of a Function
+## Expectation of a Function
 
 The expected (mean) value of any function \(f(x,y)\) is:
 
@@ -240,7 +240,7 @@ The expected (mean) value of any function \(f(x,y)\) is:
 
 ---
 
-# Independent Variables
+## Independent Variables
 
 If \(X\) and \(Y\) are independent:
 
@@ -256,7 +256,7 @@ since the outcomes are independent.
 
 ---
 
-# Mean and Variance of Sums of Variables
+## Mean and Variance of Sums of Variables
 
 For two random variables \(X\) and \(Y\):
 
@@ -268,7 +268,7 @@ This separates as:
 
 ---
 
-# Variance of the Sum
+## Variance of the Sum
 
 The variance of the sum is:
 
@@ -285,3 +285,72 @@ Thus:
 For independent variables, \( \langle XY\rangle = \langle X\rangle\langle Y\rangle \), so:
 
 ![Eq12](https://latex.codecogs.com/svg.image?\sigma_{x+y}^{2}=\sigma_{x}^{2}+\sigma_{y}^{2})
+
+## Covariance and Correlation
+
+If \(X\) and \(Y\) are independent, then:
+
+![Eq1](https://latex.codecogs.com/svg.image?\langle%20XY\rangle=\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}XY\rho(x)\rho(y)\,dx\,dy=(\int_{-\infty}^{\infty}x\rho(x)\,dx)(\int_{-\infty}^{\infty}y\rho(y)\,dy)=\langle%20X\rangle\langle%20Y\rangle)
+
+Substituting this into the variance relation gives:
+
+![Eq2](https://latex.codecogs.com/svg.image?\sigma_{x+y}^{2}=\sigma_{x}^{2}+\sigma_{y}^{2})
+
+Thus, the term:
+
+![Eq3](https://latex.codecogs.com/svg.image?\langle%20XY\rangle-\langle%20X\rangle\langle%20Y\rangle)
+
+provides a measure of how dependent the two variables are.
+
+---
+
+## Covariance
+
+This quantity is called the **covariance** of \(X\) and \(Y\), defined as:
+
+![Eq4](https://latex.codecogs.com/svg.image?\mathrm{Cov}(X,Y)=\langle%20XY\rangle-\langle%20X\rangle\langle%20Y\rangle)
+
+An equivalent form is:
+
+![Eq5](https://latex.codecogs.com/svg.image?\mathrm{Cov}(X,Y)=\langle(X-\langle%20X\rangle)(Y-\langle%20Y\rangle)\rangle)
+
+This is consistent with the definitions of variance:
+
+![Eq6](https://latex.codecogs.com/svg.image?\sigma_{x}^{2}=\langle(X-\langle%20X\rangle)^{2}\rangle)
+
+![Eq7](https://latex.codecogs.com/svg.image?\sigma_{y}^{2}=\langle(Y-\langle%20Y\rangle)^{2}\rangle)
+
+---
+
+## Correlation Coefficient
+
+It is often useful to normalize the covariance by the product of the standard deviations of \(X\) and \(Y\).  
+This normalized quantity is the **correlation coefficient** \(\rho_{xy}\):
+
+![Eq8](https://latex.codecogs.com/svg.image?\rho_{xy}=\frac{\langle(X-\langle%20X\rangle)(Y-\langle%20Y\rangle)\rangle}{\sigma_{x}\sigma_{y}})
+
+Another equivalent form:
+
+![Eq9](https://latex.codecogs.com/svg.image?\rho_{xy}=\frac{\langle(X-\langle%20X\rangle)(Y-\langle%20Y\rangle)\rangle}{\sqrt{\langle(X-\langle%20X\rangle)^{2}\rangle\langle(Y-\langle%20Y\rangle)^{2}\rangle}})
+
+By construction:
+
+![Eq10](https://latex.codecogs.com/svg.image?-1\le\rho_{xy}\le1)
+
+- If \(\rho_{xy}=0\): X and Y are uncorrelated (independent).  
+- If \(\rho_{xy}>0\): X and Y are positively correlated (when \(X>\langle X\rangle\), \(Y>\langle Y\rangle\)).  
+- If \(\rho_{xy}<0\): X and Y are negatively correlated (when \(X>\langle X\rangle\), \(Y<\langle Y\rangle\), or vice versa).
+
+---
+
+## Interpreting Correlations
+
+The correlation coefficient allows us to compare the degree of statistical dependence between different pairs of variables, even when their units or magnitudes differ.
+
+For example:
+
+Are **wealth and health** more strongly correlated than  
+**temperature and humidity** in a city?
+
+Such comparisons are meaningful because \(\rho_{xy}\) is **dimensionless and normalized**.
+
