@@ -224,8 +224,8 @@ The quantity:
 
 gives the probability that:
 
-- \(X\) lies within the infinitesimal range ![Eq1](https://latex.codecogs.com/svg.image?x\le\X\le\{x+dx}). ![Eq10](https://latex.codecogs.com/svg.image?x\le\rho_{xy}\le{x+dx}) and  
-- \(Y\) lies within ![Eq1](https://latex.codecogs.com/svg.image?\y\le\Y\le\{y+dy}).
+- \(X\) lies within the infinitesimal range ![Eq10](https://latex.codecogs.com/svg.image?x\le{X}\le{x+dx}) and  
+- \(Y\) lies within ![Eq10](https://latex.codecogs.com/svg.image?y\le{Y}\le{y+dy}).
 
 The normalization condition must hold:
 
