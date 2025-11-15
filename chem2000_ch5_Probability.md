@@ -179,7 +179,10 @@ These variations in bond length are analogous to the different face-up values of
 All H₂ molecules are identical, just as all dice have the same probability distribution of outcomes.
 
 Suppose we take a “snapshot” of all \(N_A\) molecules and record their instantaneous bond lengths  
-![Eq2a](https://latex.codecogs.com/svg.image?\x_1,x_2,\dots,x_{N_A}\).
+![Eq2](https://latex.codecogs.com/svg.image?\bar{x}=\frac{x_{1}+x_{2}+\cdots+x_{N_A}}{N_A})
+![Eq2](https://latex.codecogs.com/svg.image?\bar{x}=\frac{x_{1}+x_{2}+\cdots+x_{N_A}}{N_A})
+![Eq2](https://latex.codecogs.com/svg.image?\bar{x}=\frac{x_{1}+x_{2}+\cdots+x_{N_A}}{N_A})
+![Eq2a](https://latex.codecogs.com/svg.image?\x_1,x_2,\dots,x_{N_A}).
 We can then compute their average bond length:
 
 ![Eq2](https://latex.codecogs.com/svg.image?\bar{x}=\frac{x_{1}+x_{2}+\cdots+x_{N_A}}{N_A})
