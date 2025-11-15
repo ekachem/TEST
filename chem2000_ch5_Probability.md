@@ -107,6 +107,7 @@ As σ → 0, the Gaussian becomes sharper and narrower, eventually approaching t
 ![Eq5](https://latex.codecogs.com/svg.image?\delta(x-a)=\lim_{\sigma\to0}\frac{1}{\sqrt{2\pi\sigma^{2}}}e^{-(x-a)^{2}/(2\sigma^{2})})
 
 The delta function satisfies:
+
 $$
 \delta(x-a)=
 \begin{cases}
