@@ -349,8 +349,8 @@ By construction:
 ![Eq10](https://latex.codecogs.com/svg.image?-1\le\rho_{xy}\le1)
 
 - If ![Eq1](https://latex.codecogs.com/svg.image?\rho_{xy}=0): X and Y are uncorrelated (independent).  
-- If ![Eq1](https://latex.codecogs.com/svg.image?\rho_{xy}>0): X and Y are positively correlated when ![Eq1](https://latex.codecogs.com/svg.image?X>\langle{X}\rangle,%%{Y}>\langle{Y}\rangle).  
-- If ![Eq1](https://latex.codecogs.com/svg.image?\rho_{xy}<0): X and Y are negatively correlated when ![Eq1](https://latex.codecogs.com/svg.image?X>\langle{X}\rangle,%%{Y}<\langle{Y}\rangle), or vice versa.
+- If ![Eq1](https://latex.codecogs.com/svg.image?\rho_{xy}>0): X and Y are positively correlated when ![Eq1](https://latex.codecogs.com/svg.image?X>\langle{X}\rangle,%{Y}>\langle{Y}\rangle).  
+- If ![Eq1](https://latex.codecogs.com/svg.image?\rho_{xy}<0): X and Y are negatively correlated when ![Eq1](https://latex.codecogs.com/svg.image?X>\langle{X}\rangle,%{Y}<\langle{Y}\rangle), or vice versa.
 
 ---
 
