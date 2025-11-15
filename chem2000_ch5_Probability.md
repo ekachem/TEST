@@ -39,7 +39,7 @@ and the variance is defined as
 $\int_{0}^{2\pi} \rho(\phi)\, d\phi = 1$
 
 
-![Integral](https://latex.codecogs.com/svg.image?\int_{0}^{2\pi} \rho(\phi)\, d\phi = 1)
+![Integral](https://latex.codecogs.com/svg.image?\int_{0}^{2\pi}\rho(\phi)\,d\phi=1)
 
 ![Integral](https://latex.codecogs.com/svg.image?\int_{0}^{2\pi}\rho(\phi)\,d\phi=1)
 
