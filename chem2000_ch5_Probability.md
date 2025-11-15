@@ -189,3 +189,99 @@ Because \(N_A\) is extremely large, the **Central Limit Theorem** guarantees tha
 
 Nearly all experimental measurements can be viewed as observing the **average of a very large number of microscopic events or particles**.  
 Consequently, the results of most physical and chemical experiments **follow the normal (Gaussian) distribution**.
+
+# Importance of the Normal Distribution
+
+This is why the normal (Gaussian) distribution finds such extensive use in analytical chemistry.  
+Many experimental measurements—such as absorbance, concentration, or instrumental noise—naturally follow normal distributions because they are averages of numerous microscopic events.
+
+---
+
+# Joint Probability Distributions
+
+An event can depend on more than one random variable.
+
+Example:  
+If a die is thrown into a box, both the face-up value and the landing position are random quantities.  
+Let these be represented by two continuous random variables, x and y.
+
+The joint probability density function ρ(x,y) describes the combined probability of both variables.
+
+The quantity:
+
+![Eq1](https://latex.codecogs.com/svg.image?\rho(x,y)\,dx\,dy)
+
+gives the probability that:
+
+- \(X\) lies within the infinitesimal range \(x \le X \le x+dx\), and  
+- \(Y\) lies within \(y \le Y \le y+dy\).
+
+The normalization condition must hold:
+
+![Eq2](https://latex.codecogs.com/svg.image?\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}\rho(x,y)\,dx\,dy=1)
+
+---
+
+# Marginal Probability Densities
+
+If we integrate over one variable, we obtain the marginal distribution of the other:
+
+![Eq3](https://latex.codecogs.com/svg.image?\rho(x)=\int_{-\infty}^{\infty}\rho(x,y)\,dy)
+
+This gives the probability distribution of \(x\) after averaging over all values of \(y\).
+
+---
+
+# Expectation of a Function
+
+The expected (mean) value of any function \(f(x,y)\) is:
+
+![Eq4](https://latex.codecogs.com/svg.image?\langle%20f(x,y)\rangle=\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}f(x,y)\rho(x,y)\,dx\,dy)
+
+---
+
+# Independent Variables
+
+If \(X\) and \(Y\) are independent:
+
+![Eq5](https://latex.codecogs.com/svg.image?\rho(x,y)=\rho(x)\rho(y))
+
+Example:  
+Throwing two dice.  
+The probability of obtaining (1,1) is:
+
+![Eq6](https://latex.codecogs.com/svg.image?P(1,1)=\frac{1}{6}\times\frac{1}{6}=\frac{1}{36})
+
+since the outcomes are independent.
+
+---
+
+# Mean and Variance of Sums of Variables
+
+For two random variables \(X\) and \(Y\):
+
+![Eq7](https://latex.codecogs.com/svg.image?\langle%20X+Y\rangle=\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}(X+Y)\rho(x,y)\,dx\,dy)
+
+This separates as:
+
+![Eq8](https://latex.codecogs.com/svg.image?\langle%20X+Y\rangle=\langle%20X\rangle+\langle%20Y\rangle)
+
+---
+
+# Variance of the Sum
+
+The variance of the sum is:
+
+![Eq9](https://latex.codecogs.com/svg.image?\sigma_{x+y}^{2}=\langle(X+Y-\langle%20X+Y\rangle)^{2}\rangle)
+
+Expanding:
+
+![Eq10](https://latex.codecogs.com/svg.image?\sigma_{x+y}^{2}=\langle(X-\langle%20X\rangle)^{2}\rangle+\langle(Y-\langle%20Y\rangle)^{2}\rangle+2(\langle%20XY\rangle-\langle%20X\rangle\langle%20Y\rangle))
+
+Thus:
+
+![Eq11](https://latex.codecogs.com/svg.image?\sigma_{x+y}^{2}=\sigma_{x}^{2}+\sigma_{y}^{2}+2(\langle%20XY\rangle-\langle%20X\rangle\langle%20Y\rangle))
+
+For independent variables, \( \langle XY\rangle = \langle X\rangle\langle Y\rangle \), so:
+
+![Eq12](https://latex.codecogs.com/svg.image?\sigma_{x+y}^{2}=\sigma_{x}^{2}+\sigma_{y}^{2})
