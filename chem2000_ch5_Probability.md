@@ -126,6 +126,15 @@ and
 
 ![DeltaIntegral](https://latex.codecogs.com/svg.image?\int_{-\infty}^{\infty}\delta(x-a)\,dx=1)
 
+The delta function satisfies:
+
+![DeltaPiecewise](https://latex.codecogs.com/svg.image?\delta(x-a)=\begin{cases}\infty\ \text{ if }x=a\\0\ \text{ if }x\ne%20a\end{cases})
+
+and
+
+![DeltaIntegral](https://latex.codecogs.com/svg.image?\int_{-\infty}^{\infty}\delta(x-a)\,dx=1)
+
+
 ---
 
 # The Normal (Gaussian) Distribution and the Central Limit Theorem
