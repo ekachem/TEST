@@ -29,36 +29,16 @@ which is independent of φ, and indeed satisfies
 
 Consider a one-dimensional box of length L into which we randomly drop a small sphere. The probability of the sphere landing at a position x follows a continuous distribution ρ(x)dx, which must also be normalized to 1:
 
-The probability of finding the sphere within a certain range 
-𝑎
-≤
-𝑥
-≤
-𝑏
-a≤x≤b is given by
+The probability of finding the sphere within a certain range a≤x≤b is given by
+![Integral](https://latex.codecogs.com/svg.image?\int_{-\infty}^{\infty}\delta(x)\{dx}=1)
 
-𝑃
-(
-𝑎
-≤
-𝑥
-≤
-𝑏
-)
-=
-∫
-𝑎
-𝑏
-𝜌
-(
-𝑥
-)
- 
-𝑑
-𝑥
-P(a≤x≤b)=∫
-a
-b
-	​
+All the concepts developed for discrete distributions can be extended to continuous distributions. For example:
+# Equation
+and the variance is defined as
 
-ρ(x)dx
+$\int_{0}^{2\pi} \rho(\phi)\, d\phi = 1$
+
+$$
+\int_{0}^{2\pi} \rho(\phi)\, d\phi = 1
+$$
+
