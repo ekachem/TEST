@@ -80,6 +80,7 @@ A larger σ corresponds to a broader distribution.
 See Slide 5 for the probability of finding a value within 1 σ, 2 σ, and 3 σ of the center of a Gaussian distribution:
 
 ![Standard Deviation Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Standard_deviation_diagram.svg/512px-Standard_deviation_diagram.svg.png)
+
 [ https://en.wikipedia.org/wiki/Normal_distribution ]
 
 ![Eq1](https://latex.codecogs.com/svg.image?\int_{-\sigma}^{\sigma}\frac{1}{\sqrt{2\pi\sigma^{2}}}e^{-x^{2}/(2\sigma^{2})}\,dx=0.6827)
@@ -137,7 +138,9 @@ Slide 6 shows the probability distribution of the sum
 
 ![Eq9](https://latex.codecogs.com/svg.image?S=X_{1}+X_{2}+\cdots+X_{n})
 
-![Standard Deviation Diagram](https://en.wikipedia.org/wiki/Normal_distribution#/media/File:Dice_sum_central_limit_theorem.svg)
+![Central Limit Theory](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Dice_sum_central_limit_theorem.svg/800px-Dice_sum_central_limit_theorem.svg.png)
+
+[ https://en.wikipedia.org/wiki/Normal_distribution ]
 
 which can take values from **n** to **6n**.
 
