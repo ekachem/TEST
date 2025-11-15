@@ -72,6 +72,9 @@ Thus, \( \sigma^{2} \) is the variance of the Gaussian distribution.
 # Gaussian Distribution and Its Properties
 
 See Slide 4 for Gaussian distributions with different values of σ².  
+
+https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Standard_deviation_diagram.svg/512px-Standard_deviation_diagram.svg.png
+
 A larger σ corresponds to a broader distribution.
 
 See Slide 5 for the probability of finding a value within 1 σ, 2 σ, and 3 σ of the center of a Gaussian distribution:
