@@ -137,3 +137,55 @@ With one die, all six outcomes are equally probable.
 
 With two dice, the central value \(S=7\) becomes the most probable, since more combinations of dice values yield 7 than any other sum.
 
+
+# Convergence Toward the Gaussian Distribution
+
+For two dice, many different combinations yield the same total.  
+For example, a sum of 7 can result from:
+
+(1,6), (6,1), (2,5), (5,2), (3,4), (4,3)
+
+whereas only one combination, (1,1), gives a sum of 2.
+
+As the number of dice \(n\) increases, the probability distribution of the sum becomes smoother and approaches the bell-shaped Gaussian (normal) curve.
+
+If we divide the total by \(n\), i.e., consider the mean value
+
+![Eq1](https://latex.codecogs.com/svg.image?\bar{x}=\frac{x_{1}+x_{2}+\cdots+x_{n}}{n})
+
+the results range from 1 to 6.
+
+In the series of plots (see the figure in the lecture slides), all five distributions share the same **range**, but differ in **shape** — and as \(n\) increases, the curves converge to the Gaussian form.
+
+---
+
+# Example — Distribution of H₂ Bond Lengths
+
+Consider one mole of hydrogen molecules (H₂).  
+If we could instantaneously measure the bond length of each molecule, we would find that the values are not identical — some bonds are slightly longer, some shorter, with an average value around **0.74 Å**.
+
+These variations in bond length are analogous to the different face-up values of dice in the previous example.  
+All H₂ molecules are identical, just as all dice have the same probability distribution of outcomes.
+
+Suppose we take a “snapshot” of all \(N_A\) molecules and record their instantaneous bond lengths  
+\(x_1, x_2, \dots, x_{N_A}\).  
+We can then compute their average bond length:
+
+![Eq2](https://latex.codecogs.com/svg.image?\bar{x}=\frac{x_{1}+x_{2}+\cdots+x_{N_A}}{N_A})
+
+where
+
+![Eq3](https://latex.codecogs.com/svg.image?N_{A}=6.022\times10^{23})
+
+is Avogadro’s number.
+
+If we repeat this process—taking many such snapshots and recording the corresponding average bond length each time—we will find that these averaged values follow a **normal (Gaussian) distribution**.
+
+Because \(N_A\) is extremely large, the **Central Limit Theorem** guarantees that the measured averages of microscopic quantities (such as bond length, velocity, or energy) are normally distributed.
+
+---
+
+# Implication for Experiments
+
+Nearly all experimental measurements can be viewed as observing the **average of a very large number of microscopic events or particles**.  
+Consequently, the results of most physical and chemical experiments **follow the normal (Gaussian) distribution**.
