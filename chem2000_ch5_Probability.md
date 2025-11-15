@@ -35,7 +35,7 @@ Consider a one-dimensional box of length \(L\) into which we randomly drop a sma
 
 ![Eq5](https://latex.codecogs.com/svg.image?\int_{0}^{L}\rho(x)\,dx=1)
 
-The probability of finding the sphere within a certain range \(a \le x \le b\) is given by:
+The probability of finding the sphere within a certain range range a≤x≤b is given by:
 
 ![Eq6](https://latex.codecogs.com/svg.image?P(a\le%20x\le%20b)=\int_{a}^{b}\rho(x)\,dx)
 
@@ -67,7 +67,7 @@ Therefore:
 
 ![Eq13](https://latex.codecogs.com/svg.image?\langle%20x^{2}\rangle-\langle%20x\rangle^{2}=\sigma^{2}=\sigma_{x}^{2})
 
-Thus, \( \sigma^{2} \) is the variance of the Gaussian distribution.
+Thus, σ2 is the variance of the Gaussian distribution.
 
 # Gaussian Distribution and Its Properties
 
@@ -121,7 +121,7 @@ and
 The Gaussian distribution is also called the **Normal Distribution**.  
 It is of fundamental importance because of a major result in statistics — the **Central Limit Theorem**.
 
-The theorem states that if \(x_1, x_2, \dots, x_n\) are independent random variables with the same underlying distribution, then their average
+The theorem states that if x1, x2, ..., xn are independent random variables with the same underlying distribution, then their average
 
 ![Eq8](https://latex.codecogs.com/svg.image?\bar{x}=\frac{x_{1}+x_{2}+\cdots+x_{n}}{n})
 
@@ -131,8 +131,8 @@ tends toward a normal distribution, and the approximation becomes increasingly a
 
 ## Example — Rolling Dice
 
-Consider rolling \(n\) dice.  
-Let \(X_1, X_2, X_3, \dots, X_n\) represent the face-up values of each die.
+Consider rolling n dice.  
+Let X1, X2, ..., Xn represent the face-up values of each die.
 
 Slide 6 shows the probability distribution of the sum
 
@@ -179,7 +179,7 @@ These variations in bond length are analogous to the different face-up values of
 All H₂ molecules are identical, just as all dice have the same probability distribution of outcomes.
 
 Suppose we take a “snapshot” of all \(N_A\) molecules and record their instantaneous bond lengths  
-\(x_1, x_2, \dots, x_{N_A}\).  
+![Eq2](https://latex.codecogs.com/svg.image?\(x_1, x_2,\dots,x_{N_A}\)).  
 We can then compute their average bond length:
 
 ![Eq2](https://latex.codecogs.com/svg.image?\bar{x}=\frac{x_{1}+x_{2}+\cdots+x_{N_A}}{N_A})
@@ -224,8 +224,8 @@ The quantity:
 
 gives the probability that:
 
-- \(X\) lies within the infinitesimal range \(x \le X \le x+dx\), and  
-- \(Y\) lies within \(y \le Y \le y+dy\).
+- \(X\) lies within the infinitesimal range ![Eq1](https://latex.codecogs.com/svg.image?\(x \le X \le x+dx\), and  
+- \(Y\) lies within ![Eq1](https://latex.codecogs.com/svg.image?\(y \le Y \le y+dy\).
 
 The normalization condition must hold:
 
@@ -293,7 +293,7 @@ Thus:
 
 ![Eq11](https://latex.codecogs.com/svg.image?\sigma_{x+y}^{2}=\sigma_{x}^{2}+\sigma_{y}^{2}+2(\langle%20XY\rangle-\langle%20X\rangle\langle%20Y\rangle))
 
-For independent variables, \( \langle XY\rangle = \langle X\rangle\langle Y\rangle \), so:
+For independent variables, ![Eq1](https://latex.codecogs.com/svg.image?\( \langle XY\rangle = \langle X\rangle\langle Y\rangle \), so:
 
 ![Eq12](https://latex.codecogs.com/svg.image?\sigma_{x+y}^{2}=\sigma_{x}^{2}+\sigma_{y}^{2})
 
@@ -349,8 +349,8 @@ By construction:
 ![Eq10](https://latex.codecogs.com/svg.image?-1\le\rho_{xy}\le1)
 
 - If \(\rho_{xy}=0\): X and Y are uncorrelated (independent).  
-- If \(\rho_{xy}>0\): X and Y are positively correlated (when \(X>\langle X\rangle\), \(Y>\langle Y\rangle\)).  
-- If \(\rho_{xy}<0\): X and Y are negatively correlated (when \(X>\langle X\rangle\), \(Y<\langle Y\rangle\), or vice versa).
+- If \(\rho_{xy}>0\): X and Y are positively correlated (when ![Eq1](https://latex.codecogs.com/svg.image?\(X>\langle X\rangle\), \(Y>\langle Y\rangle\))).  
+- If \(\rho_{xy}<0\): X and Y are negatively correlated (when ![Eq1](https://latex.codecogs.com/svg.image?\(X>\langle X\rangle\), \(Y<\langle Y\rangle\)), or vice versa).
 
 ---
 
