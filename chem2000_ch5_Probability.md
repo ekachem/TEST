@@ -68,3 +68,72 @@ Therefore:
 ![Eq13](https://latex.codecogs.com/svg.image?\langle%20x^{2}\rangle-\langle%20x\rangle^{2}=\sigma^{2}=\sigma_{x}^{2})
 
 Thus, \( \sigma^{2} \) is the variance of the Gaussian distribution.
+
+# Gaussian Distribution and Its Properties
+
+See Slide 4 for Gaussian distributions with different values of σ².  
+A larger σ corresponds to a broader distribution.
+
+See Slide 5 for the probability of finding a value within 1 σ, 2 σ, and 3 σ of the center of a Gaussian distribution:
+
+![Eq1](https://latex.codecogs.com/svg.image?\int_{-\sigma}^{\sigma}\frac{1}{\sqrt{2\pi\sigma^{2}}}e^{-x^{2}/(2\sigma^{2})}\,dx=0.6827)
+
+![Eq2](https://latex.codecogs.com/svg.image?\int_{-2\sigma}^{2\sigma}\frac{1}{\sqrt{2\pi\sigma^{2}}}e^{-x^{2}/(2\sigma^{2})}\,dx=0.9545)
+
+![Eq3](https://latex.codecogs.com/svg.image?\int_{-3\sigma}^{3\sigma}\frac{1}{\sqrt{2\pi\sigma^{2}}}e^{-x^{2}/(2\sigma^{2})}\,dx=0.9973)
+
+Thus, approximately **68.3%**, **95.5%**, and **99.7%** of the total probability lie within **1 σ**, **2 σ**, and **3 σ** of the mean, respectively.
+
+---
+
+## Gaussian Centered at a Non-Zero Mean
+
+A Gaussian distribution need not be centered at \(x = 0\).  
+A more general form is:
+
+![Eq4](https://latex.codecogs.com/svg.image?\rho(x)=\frac{1}{\sqrt{2\pi\sigma^{2}}}e^{-(x-\langle%20x\rangle)^{2}/(2\sigma^{2})})
+
+which is centered at the mean value ⟨x⟩.
+
+As σ → 0, the Gaussian becomes sharper and narrower, eventually approaching the Dirac delta function:
+
+![Eq5](https://latex.codecogs.com/svg.image?\delta(x-a)=\lim_{\sigma\to0}\frac{1}{\sqrt{2\pi\sigma^{2}}}e^{-(x-a)^{2}/(2\sigma^{2})})
+
+The delta function satisfies:
+
+![Eq6](https://latex.codecogs.com/svg.image?\delta(x-a)=\begin{cases}\infty,&x=a\\0,&x\neq%20a\end{cases})
+
+and
+
+![Eq7](https://latex.codecogs.com/svg.image?\int_{-\infty}^{\infty}\delta(x-a)\,dx=1)
+
+---
+
+# The Normal (Gaussian) Distribution and the Central Limit Theorem
+
+The Gaussian distribution is also called the **Normal Distribution**.  
+It is of fundamental importance because of a major result in statistics — the **Central Limit Theorem**.
+
+The theorem states that if \(x_1, x_2, \dots, x_n\) are independent random variables with the same underlying distribution, then their average
+
+![Eq8](https://latex.codecogs.com/svg.image?\bar{x}=\frac{x_{1}+x_{2}+\cdots+x_{n}}{n})
+
+tends toward a normal distribution, and the approximation becomes increasingly accurate as \(n\) increases.
+
+---
+
+## Example — Rolling Dice
+
+Consider rolling \(n\) dice.  
+Let \(X_1, X_2, X_3, \dots, X_n\) represent the face-up values of each die.
+
+Slide 6 shows the probability distribution of the sum
+
+![Eq9](https://latex.codecogs.com/svg.image?S=X_{1}+X_{2}+\cdots+X_{n})
+
+which can take values from **n** to **6n**.
+
+With one die, all six outcomes are equally probable.
+
+With two dice, the central value \(S=7\) becomes the most probable, since more combinations of dice values yield 7 than any other sum.
+
