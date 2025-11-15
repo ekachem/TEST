@@ -73,7 +73,7 @@ Thus, \( \sigma^{2} \) is the variance of the Gaussian distribution.
 
 See Slide 4 for Gaussian distributions with different values of σ².  
 
-![Standard Deviation Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Standard_deviation_diagram.svg/512px-Standard_deviation_diagram.svg.png)
+![Standard Deviation Diagram](https://github.com/ekachem/TEST/blob/master/gauss_dist.png)
 
 A larger σ corresponds to a broader distribution.
 
