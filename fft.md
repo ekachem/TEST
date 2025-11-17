@@ -1,4 +1,9 @@
 # 📘 Autocorrelation Function (ACF) & Fourier Transform (FFT)
+## Molecule Viewer
+
+Click to view the molecule interactively:
+
+[View molecule in MolView](https://molview.org/?smiles=O)
 
 ## 1. Autocorrelation Function (ACF)
 
