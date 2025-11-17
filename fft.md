@@ -5,6 +5,8 @@ Click to view the molecule interactively:
 
 [View molecule in MolView](https://molview.org/?smiles=O)
 
+![benzene](https://cactus.nci.nih.gov/chemical/structure/benzene/image)
+
 ## 1. Autocorrelation Function (ACF)
 
 The **autocorrelation function** measures how a property \(A(t)\) correlates with itself after a time lag \(\tau\).
