@@ -1,6 +1,6 @@
 ## How to Fix environment variable issue
-# Here are three reliable ways to ensure the environment variable reaches your Python script:
-Option 1: Explicitly pass all environment variables to sbatch
+ Here are three reliable ways to ensure the environment variable reaches your Python script:
+## Option 1: Explicitly pass all environment variables to sbatch
 Modify the line in your outer script that calls sbatch to explicitly export all current variables:
 bash
 ## In your outer loop script
@@ -21,7 +21,7 @@ Option 3: Set variables within submit.sh
 A very robust method is to modify your outer script to pass the values as arguments to sbatch, which can then be read by submit.sh using the #SBATCH --export directive.
 Modify your outer script:
 bash
-# In your outer loop script
+## In your outer loop script
 ```
 (
   cd "$dir"
@@ -31,11 +31,11 @@ bash
 ```
 
 Then, your submit.sh script should automatically have these variables available when the job starts.
-A Note on Handling Missing Variables in Python
+## A Note on Handling Missing Variables in Python
 While fixing the shell script propagation is the primary solution, you can make your Python script more robust by providing a default value or handling the NoneType explicitly:
 python
 import os
-# ... other imports
+ ... other imports
 ```
 gmb = os.environ.get("GAMMA_B", "0.0") # Use a default value if not found
 try:
