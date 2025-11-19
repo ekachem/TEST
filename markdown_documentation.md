@@ -69,6 +69,7 @@ You can also use relative links like [local-file](./local-file.md).
 Images are similar to links but start with an exclamation point (!).
 
 ### 7. Fenced Code Block
+Defines a Code Block: The triple backticks (```) mark the beginning and end of a section that should be treated as code, preserving formatting like indentation and line breaks.
 Example markdown
 Here is a simple Python code example:
 
