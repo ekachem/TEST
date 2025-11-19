@@ -4,12 +4,13 @@ Option 1: Explicitly pass all environment variables to sbatch
 Modify the line in your outer script that calls sbatch to explicitly export all current variables:
 bash
 ## In your outer loop script
+```
 (
   cd "$dir"
   # ... (exports are already here)
   sbatch --export=ALL submit.sh
 )
-Use code with caution.
+```
 
 This ensures that the GAMMA_B variable present in the outer script's environment is exported to the sbatch job environment.
 Option 2: Pass the variable as a command-line argument to the Python script
@@ -21,13 +22,13 @@ A very robust method is to modify your outer script to pass the values as argume
 Modify your outer script:
 bash
 # In your outer loop script
-```python
+```
 (
   cd "$dir"
   # Use sbatch environment variables flags
   sbatch --export=START_DIABAT=$st,GAMMA_B=$gam,I_COL=$icol,I_FRIC=$ifric submit.sh
 )
-Use code with caution.
+```
 
 Then, your submit.sh script should automatically have these variables available when the job starts.
 A Note on Handling Missing Variables in Python
@@ -35,7 +36,7 @@ While fixing the shell script propagation is the primary solution, you can make 
 python
 import os
 # ... other imports
-
+```
 gmb = os.environ.get("GAMMA_B", "0.0") # Use a default value if not found
 try:
     S["gamma_B"] = float(gmb)
@@ -43,3 +44,4 @@ except (ValueError, TypeError):
     print(f"Error: GAMMA_B environment variable not set or invalid: '{gmb}'")
     # Handle the error gracefully, maybe exit the script
     exit(1)
+```
