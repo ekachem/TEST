@@ -13,11 +13,11 @@ bash
 ```
 
 This ensures that the GAMMA_B variable present in the outer script's environment is exported to the sbatch job environment.
-Option 2: Pass the variable as a command-line argument to the Python script
+## Option 2: Pass the variable as a command-line argument to the Python script
 This approach avoids environment variable propagation issues entirely by passing the value directly to the Python script.
 Modify your outer script to pass the value to submit.sh, and then have submit.sh pass it to the Python script.
 Modify submit.sh to accept an argument and pass it to Python.
-Option 3: Set variables within submit.sh
+## Option 3: Set variables within submit.sh
 A very robust method is to modify your outer script to pass the values as arguments to sbatch, which can then be read by submit.sh using the #SBATCH --export directive.
 Modify your outer script:
 bash
