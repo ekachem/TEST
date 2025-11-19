@@ -21,6 +21,7 @@ A very robust method is to modify your outer script to pass the values as argume
 Modify your outer script:
 bash
 # In your outer loop script
+```python
 (
   cd "$dir"
   # Use sbatch environment variables flags
