@@ -67,3 +67,12 @@ You can also use relative links like [local-file](./local-file.md).
 
 ### 6. Images
 Images are similar to links but start with an exclamation point (!).
+
+### 7. Fenced Code Block
+Example markdown
+Here is a simple Python code example:
+
+```python
+s = "Python syntax highlighting"
+print(s)
+```
